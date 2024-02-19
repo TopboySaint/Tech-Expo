@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    overflow-x: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #f5f5f5;
+
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 999999;
+    background: #f5f5f5;
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+    margin-left: 100px;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+#flex{
+    gap: 40px;
+    display: flex;
+    transform: translate(800px,-65px);
+}
+.link1 button{
+    width: 120px;
+    height: 45px;
+    border: none;
+    background: #fdb915;
+    border-radius: 10px;
+    position: relative;
+    bottom: 5px;
+}
+.link1 a{
+    color: #224093;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: system-ui, sans-serif;
+}
+.link1 a:hover{
+    color: #fff;
+}
+.link a{
+    color: #224093;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: system-ui, sans-serif;
+}
+.link a:hover{
+    border-bottom: 1px solid #fdb915;
+}
+#roll{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(180px, 100px);
+}
+.head1{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "jost", sans-serif;
+    color: #224093;
+    transform: translate(-150px,40px);
+
+}
+.head2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "jost", sans-serif;
+    color: #224093;
+    transform: translate(80px,38px);
+}
+.expo img{
+    width: 90%;
+    transform: translate(50px,120px);
+}
+.line{
+    border: none;
+    height: 100px;
+    width: 200px;
+    transform: translate(-170px, 45px);
+}
+.line img{
+    height: 10px;
+    width: 280px;
+}
+.line2 img{
+    height: 10px;
+    width: 280px;
+}
+.line2{
+    border: none;
+    height: 100px;
+    width: 200px;
+    transform: translate(20px, 45px);
+}
+.star{
+    border: 2px solid #00a877;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    transform: translate(-40px, 20px);
+}
+.star img{
+    transform: translate(3px, 1px);
+    animation: star 3s linear infinite;
+}
+@keyframes star{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#white{
+    gap: 20px;
+    display: flex;
+    transform: translate(60px, 130px);
+}
+.buttons  button{
+    width: 600px;
+    height: 45px;
+    border: none;
+    background: #fdb915;
+}
+.buttons a{
+    text-decoration: none;
+    font-family: jost;
+    font-size: 24px;
+    font-weight: 500;
+    color: #224093;
+}
+.buttons2  button{
+    width: 600px;
+    height: 45px;
+    border: 1px solid #224093 ;
+    background: #f5f5f5;
+}
+.buttons2 a{
+    text-decoration: none;
+    font-family: jost;
+    font-size: 24px;
+    font-weight: 500;
+    color: #224093;
+}
+.venue{
+    border-radius: 10px;
+    width: 90%;
+    height: 310px;
+    margin: auto;
+    background: linear-gradient( to right, #bd8d18, #224093 60%);
+    transform: translate(0px, 200px);
+}
+.center{
+    line-height: 45px;
+    text-align: center;
+    padding: 35px 0px;
+}
+.date{
+    line-height: 45px;
+    text-align: center;
+    padding: 40px 0px;
+}
+.center h1{
+    font-family: jost;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.center p{
+    font-family: jost;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.date h1{
+    font-family: jost;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.date p{
+    font-family: jost;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.about{
+    display: flex;
+}
+.picdet{
+    width: 48%;
+    transform: translate(0px, 280px);
+}
+.picdet img{
+    width: 650px;
+}
+.divindiv img{
+    width: 600px;
+    border-bottom: 2px solid #feb20f;
+    transform: translate(40px, 120px);
+}
+.picdet p{
+    font-family: jost;
+    font-size: 18px;
+    font-weight: 500;
+    color:#224093;
+    padding: 0px 20px;
+    line-height: 20px;
+    transform: translate(18px, 130px);
+}
+.venueheader{
+    font-family: jost;
+    font-size: 72px;
+    font-weight: 800;
+    color:#224093;
+    transform: translate(55px, 350px);
+    border-bottom: 2px solid #fdb915;
+    width: 90%;
+    height: 90px;
+}
+.BG{
+    border-radius: 22px;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url(images/Venue-1-38edfbf0.png);
+    transform: translate(0px, 400px);
+}
+.linediv{
+    height: 380px;
+    transform: translate(60px, -72px);
+
+}
+.headers{
+    position: relative;
+    left: 100px;
+    top: 20px;
+    font-family: system-ui, sans-serif;
+    color: #fff;
+}
+.linedev{
+    height: 380px;
+    transform: translate(1145px, -72px);
+}
+.speaker{
+    width: 90%;
+    height: 90px;
+    margin: auto;
+    border-bottom: 2px solid #fdb915;
+    transform: translate(0px, 450px);
+}
+#speakers h1{
+    font-family: jost;
+    font-size: 72px;
+    font-weight: 800;
+    color: #224093;
+}
+#speaker p{
+    font-family: jost;
+    font-size: 12px;
+    font-weight: 500;
+    color: #224093;
+    transform: translate(1080px, -40px);
+}
+#onebyone{
+    width: 280px;
+    height: 350px;
+    text-align: center;
+}
+.people{
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(50px, 500px);
+}
+#onebyone img{
+    width: 280px;
+    height: 280px;
+}
+#onebyone h1{
+    font-family: jost;
+    font-weight: 500;
+    font-size: 28px;
+    color: #224093;
+}
+#onebyone p{
+    font-family: jost;
+    font-weight: 400;
+    font-size: 15px;
+    color: #224093;
+}
+.heading{
+    position: relative;
+    top: 600px;
+    width: 90%;
+    transform: translate(55px, 0px);
+    border-bottom: 2px solid #fdb915;
+}
+.heading h1{
+    font-family: jost;
+    font-size: 100px;
+    font-weight: 800;
+    color: #224093;
+}
+.papers{
+    width: 50%;
+    height: 300px;
+}
+.papers img{
+    width: 300px;
+    height: 300px;
+    transform: translate(200px, 50px);
+}
+.papers p{
+    font-size: 16px;
+    font-family: jost;
+    font-weight: 400;
+    padding: 100px 220px 100px 50px;
+}
+.rawtick{
+    display: flex;
+    transform: translate(0px, 600px);
+}
