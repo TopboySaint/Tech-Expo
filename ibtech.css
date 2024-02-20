@@ -336,3 +336,61 @@ body{
     display: flex;
     transform: translate(0px, 600px);
 }
+.allof{
+    transform: translate(0px, 650px);
+}
+.price{
+    gap: 20px;
+    display: flex;
+    transform: translate(90px, 120px);
+}
+.mark{
+    width: 380px;
+    height: 500px;
+    background: #fff;
+    border-radius: 15px;
+    padding-top: 10px;
+    border: 2px solid red;
+}
+.mark span{
+    font-size: 15px;
+    font-family: jost;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.mark h1{
+    font-size: 25px;
+    font-family: jost;
+    font-weight: 800;
+    width: 50px;
+    padding-bottom: 50px;
+    margin-left: 8px;
+}
+.mark p{
+    font-size: 12px;
+    font-family: jost;
+    font-weight: 700;
+    padding: 12px 10px;
+}
+.amount{
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: jost;
+    font-weight: 800;
+    padding-top: 30px;
+}
+.elon{
+    width: 380px;
+    height: 600px;
+    border: 2px solid red;
+    background: #ffcd55;
+    border-radius: 15px;
+    transform: translate(0px, -50px);
+}
+.suit{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #224093;
+    font-family: jost;
+}
